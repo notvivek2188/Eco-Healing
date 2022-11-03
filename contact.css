@@ -1,0 +1,149 @@
+html,
+body {
+    min-height: 100vh;
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: #d4d5bc;
+    height: 1200px;
+    font-family: 'Montserrat';
+}
+
+nav {
+    position: absolute;
+    width: 2446px;
+    height: 203px;
+    left: 0px;
+    top: -41px;
+    background: #3f3d55;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #D65C3A;
+}
+
+.button>p {
+    font-family: 'Montserrat';
+    top: 100px;
+    text-align: center;
+    color: #fff
+}
+
+div:hover {
+    background-color: #EC864B;
+}
+
+#button3place {
+    left: 1310px;
+    top: 101px;
+}
+
+#button4place {
+    left: 1110px;
+    top: 101px;
+}
+
+#button5place {
+    left: 1110px;
+    top: 1108px;
+}
+
+#logo {
+    position: absolute;
+    width: 182px;
+    height: 182px;
+    left: 07px;
+    top: 20px;
+}
+
+#logotext {
+    position: absolute;
+    width: 266px;
+    height: 55px;
+    left: 209px;
+    top: 64px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 55px;
+    color: #A89696;
+}
+
+main {
+    position: absolute;
+    height: 500px;
+    width: 1200px;
+    left: 149px;
+    top: 333px;
+    border-radius: 18px;
+    background-color: white;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#hr1 {
+    position: absolute;
+    height: 307px;
+    width: .023px;
+    top: 110px;
+    left: 568px;
+}
+
+#request {
+    position: absolute;
+    font-size: 40px;
+    top: 0px;
+    left: 588px;
+}
+
+
+#list-items {
+    position: absolute;
+    color: #333;
+    font-size: 20px;
+    left: 578px;
+    top: 183px;
+}
+
+
+#footer {
+    position: absolute;
+    width: 1920px;
+    height: 176px;
+    left: 0px;
+    top: 1090px;
+    background: #3f3d55;
+}
+
+#footertext {
+    position: absolute;
+    width: 922px;
+    height: 61px;
+    left: 400px;
+    top: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 70px;
+    color: #A89696;
+}
+
+#follow {
+    position: absolute;
+    width: 122px;
+    height: 61px;
+    left: 1096px;
+    top: 91px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 70px;
+    color: #A89696;
+}

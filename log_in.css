@@ -1,0 +1,323 @@
+html,
+body {
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: #d4d5bc;
+    height: 1300px;
+}
+
+nav {
+    position: absolute;
+    width: 2446px;
+    height: 200px;
+    left: 0px;
+    top: -41px;
+    background: #3f3d55;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #D65C3A;
+}
+
+.button>p {
+    font-family: 'Montserrat';
+    top: 100px;
+    text-align: center;
+    color: white
+}
+
+div:hover {
+    background-color: #EC864B;
+}
+
+#button3place {
+    left: 1310px;
+    top: 108px;
+}
+
+#button4place {
+    left: 1110px;
+    top: 108px;
+}
+
+#button5place {
+    left: 1110px;
+    top: 1108px;
+}
+
+#logo {
+    position: absolute;
+    width: 182px;
+    height: 182px;
+    left: 07px;
+    top: 20px;
+}
+
+#logotext {
+    position: absolute;
+    width: 39996px;
+    height: 55px;
+    left: 209px;
+    top: 104px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 55px;
+    color: #A89696;
+}
+
+#text {
+    width: 100%;
+    font-family: 'Montserrat';
+    text-align: center;
+    position: absolute;
+    left: -517px;
+    top: 288px;
+    transform: translateY(-50%);
+    color: #A89696
+}
+
+#text2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat';
+    position: absolute;
+    left: 517px;
+    top: 288px;
+    transform: translateY(-50%);
+    color: #A89696
+}
+
+#text3 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat';
+    position: absolute;
+    left: -577px;
+    top: 588px;
+    transform: translateY(-50%);
+    color: #A89696
+}
+
+
+#text4 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat';
+    position: absolute;
+    left: 557px;
+    top: 588px;
+    transform: translateY(-50%);
+    color: #A89696
+}
+
+span {
+    font-size: 55px;
+    padding: 0 calc(0.5rem + 0.5vw);
+    position: relative;
+    opacity: 0;
+}
+
+span:not(#dot) {
+    bottom: -200px;
+    animation-name: appear;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+span:nth-of-type(2) {
+    animation-delay: 0.2s;
+}
+
+span:nth-of-type(3) {
+    animation-delay: 0.4s;
+}
+
+span:nth-of-type(4) {
+    animation-delay: 0.6s;
+}
+
+span:nth-of-type(5) {
+    animation-delay: 0.8s;
+}
+
+span:nth-of-type(6) {
+    animation-delay: 1.0s;
+}
+
+span:nth-of-type(7) {
+    animation-delay: 1.2s;
+}
+
+#dot {
+    bottom: 100px;
+    animation-name: dot;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 1.3s;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        bottom: -200px;
+    }
+
+    70% {
+        opacity: 1;
+        bottom: 15px;
+    }
+
+    85% {
+        opacity: 1;
+        bottom: -10px;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+@keyframes dot {
+    0% {
+        opacity: 0;
+        bottom: 100px;
+    }
+
+    50% {
+        opacity: 1;
+        bottom: 0;
+    }
+
+    65% {
+        opacity: 1;
+        bottom: 15px;
+    }
+
+    75% {
+        opacity: 1;
+        bottom: 0;
+    }
+
+    90% {
+        opacity: 1;
+        bottom: 10px;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+#hr1 {
+    position: absolute;
+    height: .01px;
+    width: 3000px;
+    left: -50px;
+    top: 150px
+}
+
+.fade-in {
+    animation: fadeIn 4s
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: -3;
+    }
+
+
+    to {
+        opacity: 3;
+    }
+
+}
+
+#maintextbelow {
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat';
+    position: absolute;
+    left: -10px;
+    font-size: 67px;
+    top: 818px;
+    transform: translateY(-50%);
+    color: #A89696
+}
+
+#button6place {
+    left: 570px;
+    top: 1008px;
+}
+
+.button1 {
+    width: 350px;
+    height: 80px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #D65C3A;
+}
+
+.button1>p {
+    position: absolute;
+    top: -25px;
+    left: 64px;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 38px;
+    color: white
+}
+
+main:hover {
+    background-color: white;
+}
+
+.button1>p:hover {
+    color: #EC864B;
+}
+
+#footer {
+    position: absolute;
+    width: 1920px;
+    height: 176px;
+    left: 0px;
+    top: 1300px;
+    background: #3f3d55;
+}
+
+#footertext {
+    position: absolute;
+    width: 922px;
+    height: 61px;
+    left: 400px;
+    top: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 70px;
+    color: #A89696;
+}
+
+#follow {
+    position: absolute;
+    width: 122px;
+    height: 61px;
+    left: 1096px;
+    top: 91px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 70px;
+    color: #A89696;
+}

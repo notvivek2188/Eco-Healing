@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    overflow: auto;
+    overflow-x: hidden;
+    background-size: cover;
+    background-color: #d4d5bc;
+    height: 4120px;
+    font-family: 'Montserrat';
+}
+
+
+nav {
+    position: absolute;
+    width: 2446px;
+    height: 170px;
+    left: -20px;
+    top: -41px;
+    background: #3f3d55;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #D65C3A;
+}
+
+.button>p {
+    font-family: 'Montserrat';
+    top: 100px;
+    text-align: center;
+    color: white
+}
+
+main:hover {
+    background-color: #EC864B;
+}
+
+#button3place {
+    left: 1210px;
+    top: 90px;
+}
+
+#button4place {
+    left: 1010px;
+    top: 90px;
+}
+
+#logo {
+    position: absolute;
+    width: 149px;
+    height: 149px;
+    left: 67px;
+    top: 20px;
+}
+
+#logotext {
+    position: absolute;
+    width: 266px;
+    height: 55px;
+    left: 239px;
+    top: 76px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 55px;
+    color: #A89696;
+}
+
+.flip-card {
+    margin: 20px;
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.flip-card-front,
+.flip-card-back {
+    width: 380px;
+    min-height: 600px;
+    height: auto;
+    background-color: #000000;
+    background-image: url(0fa6c4ab2c48d7270b9fc9e209ec7a70.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.flip-card:nth-of-type(2) .flip-card-front,
+.flip-card:nth-of-type(2) .flip-card-back {
+    background-image: url(8cc78a1941ab34086bbc3331b8c0fe5f.jpg);
+}
+
+.flip-card:nth-of-type(3) .flip-card-front,
+.flip-card:nth-of-type(3) .flip-card-back {
+    background-image: url(7638734-HSC00001-7.jpg);
+}
+
+.flip-card:nth-of-type(4) .flip-card-front,
+.flip-card:nth-of-type(4) .flip-card-back {
+    background-image: url(liberty-oil-sassan-filsoof.jpg);
+}
+
+.flip-card:nth-of-type(5) .flip-card-front,
+.flip-card:nth-of-type(5) .flip-card-back {
+    background-image: url(monet-thames-below-westminster-NG6399-fm.jpg);
+}
+
+.flip-card:nth-of-type(6) .flip-card-front,
+.flip-card:nth-of-type(6) .flip-card-back {
+    background-image: url(plastic-planet-laura-ostrowski.jpg);
+}
+
+.flip-card:nth-of-type(7) .flip-card-front,
+.flip-card:nth-of-type(7) .flip-card-back {
+    background-image: url("SIERRA\ Air\ Pollution\ Art\ option\ 2\ WB.jpg");
+}
+
+.flip-card:nth-of-type(8) .flip-card-front,
+.flip-card:nth-of-type(8) .flip-card-back {
+    background-image: url(14_image-asset.png);
+}
+
+.flip-card:nth-of-type(9) .flip-card-front,
+.flip-card:nth-of-type(9) .flip-card-back {
+    background-image: url(image.jpg);
+}
+
+.flip-card:nth-of-type(10) .flip-card-front,
+.flip-card:nth-of-type(10) .flip-card-back {
+    background-image: url(IMG_4969.jpg);
+}
+
+.flip-card-front {
+    transform: rotateY(0deg);
+}
+
+.flip-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+}
+
+.flip-card-front::after,
+.flip-card-back::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+}
+
+.flip-card-front .inner,
+.flip-card-back .inner {
+    width: 100%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateZ(60px) scale(0.94);
+    z-index: 2;
+}
+
+.inner .icon {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.inner h3 {
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+.inner p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 28px;
+    left: 48000px;
+}
+
+.flip-card:hover .flip-card-front {
+    transform: rotateY(-180deg);
+}
+
+.flip-card:hover .flip-card-back {
+    transform: rotateY(0deg);
+}
+
+#position1 {
+    left: 120px;
+    top: 1020px
+}
+
+#position2 {
+    left: 1020px;
+    top: 1020px;
+}
+
+#position3 {
+    left: 120px;
+    top: 1720px
+}
+
+#position4 {
+    left: 1020px;
+    top: 1720px
+}
+
+#position5 {
+    left: 120px;
+    top: 2420px
+}
+
+#position6 {
+    left: 1020px;
+    top: 2420px
+}
+
+#position7 {
+    left: 120px;
+    top: 3120px
+}
+
+#position8 {
+    left: 1020px;
+    top: 3120px
+}
+
+#position9 {
+    left: 120px;
+    top: 3220px
+}
+
+#position10 {
+    left: 1020px;
+    top: 3220px
+}
+
+
+
+#middletextsub {
+    position: absolute;
+    left: 410px;
+    color: #A89696;
+    font-weight: 900;
+    top: 800px;
+    font-size: 44px;
+}
+
+.fade-in {
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+
+    to {
+        opacity: 1;
+    }
+}
+
+#tobesub {
+    position: absolute;
+    top: 3900px;
+    left: 57px;
+    font-size: 24px;
+    color: #A89696;
+}
+
+#footer {
+    position: absolute;
+    width: 1920px;
+    height: 176px;
+    left: 0px;
+    top: 1490px;
+    background: #3f3d55;
+}
+
+#footer {
+    position: absolute;
+    width: 1920px;
+    height: 176px;
+    left: 0px;
+    top: 4120px;
+    background: #3f3d55;
+}
+
+#footertext {
+    position: absolute;
+    width: 922px;
+    height: 61px;
+    left: 400px;
+    top: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 70px;
+    color: #A89696;
+}
+
+#follow {
+    position: absolute;
+    width: 122px;
+    height: 61px;
+    left: 1096px;
+    top: 91px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 70px;
+    color: #A89696;
+}
+
+#abt {
+    position: absolute;
+    left: 100px;
+    font-weight: 900;
+    color: #A89696;
+    top: 200px;
+    font-size: 44px;
+}
+
+#abt2 {
+    width: 896px;
+    position: absolute;
+    left: 100px;
+    font-weight: 500;
+    color: #A89696;
+    top: 300px;
+    font-size: 24px;
+    line-height: 45px;
+}
